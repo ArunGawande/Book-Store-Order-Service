@@ -24,9 +24,6 @@ public class AddressModel {
 	private String city;
 	private String landmark;
 	private long userId;
-//	@OneToOne
-//	private OrderBookModel orderDetails;
-	
 	
 	public AddressModel(AddressDTO addressDTO) {
 		this.name = addressDTO.getName();
